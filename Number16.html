@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title> Number 16 - Step 7</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="Estilos.css">
+    <link rel="stylesheet" href="comentario.css">
+    <link rel="stylesheet" href="stepe7.css">
+    <script src="https://kit.fontawesome.com/75771e18fe.js" crossorigin="anonymous"></script>
+</head>
+<header id="main-header">		
+    <a id="#" href="Number16.html">
+    <img id="logo"src="numero16.png" alt="logo"><br/>
+    <span class="site-name">Number 16 Academy</span><br/>
+<nav id="menu">
+<ul>
+<li><a href="index.html"> Home</a>
+<li><a href="#"> HTML5<i class="down"></i></a>
+<ul>
+<li><a href="html5.html">HTML5</a></li>
+</ul> 
+<li><a href="css.html"> CSS<i class="down"></i></a>
+<ul>
+<li><a href="css.html">CSS - Básico</a></li>
+<li><a href="#">Marketing</a></li>
+<li><a href="#">Wordpress</a></li>
+</ul> 
+<li><a href="ED.html"> ED <i class="down"></i></a>
+</ul>   
+</nav>
+
+</header>
+<img src="portada.jpg" alt="portada">
+<div class="container">
+<body>
+<h1>Stepe 7</h1>
+<h2>Lesson 61</h2>
+<h3>Fits Like a Glove...</h3>
+<p>Page: Two - 02</p>
+<div class="central">            
+<table class="tablaS7">
+    <tr><td>Go TOGETTER (with)</td><td>MATCH (r)</td></tr>
+    <tr><td>MATCHING (adj)</td><td>SLEEVE</td></tr>
+</table>
+</div>
+<ul>
+    <li>Sleeves are the arms of a shirt/T-shirt/jumper, etc. T-shirt have short sleeves. Shirts and jumpers have long sleeves.</li>
+    <li>If two things match, they are the same. For example, if your shoes match your dress, they are the same colour.</li>
+</ul>
+
+<h4>EXAMPLES</h4>
+<p>Molly: I'm not sure if my skirt and my jumper go togetter. What do you think, Austin?</p>
+<p>Austin: Well, the don't match. But yeah, I think they go togetter. You look great!</p>
+
+
+        <h2>Questions</h2>
+        <button class="accordion"><span>Preguntas</span> <i class="fas fa-angle-down"></i></button>
+        <div class="panel">
+            <h4>Do you think my jeans and my shirt go togetter?</h4>
+            <input id="preguntas1" class="resp" type="text" name="nombredelacaja">
+            <button onClick="comprobarRespuesta(1)">Comprobar</button>
+            <span id="respuestas1"></span>
+            
+            <h4>Would a black shirt go together with a orange trousers?</h4>
+            <input id="preguntas2" class="resp" type="text" name="nombredelacaja">
+            <button onClick="comprobarRespuesta(2)">Comprobar</button>
+            <span id="respuestas2"></span>
+        
+            <h4>Do the colours orange and green go together?</h4>
+            <input id="preguntas3" class="resp" type="text" name="nombredelacaja">
+            <button onClick="comprobarRespuesta(3)">Comprobar</button>
+            <span id="respuestas3"></span>
+            
+            <h4>Do the colours pink and brown go together?</h4>
+            <input id="preguntas4" class="resp" type="text" name="nombredelacaja">
+            <button onClick="comprobarRespuesta(4)">Comprobar</button>
+            <span id="respuestas4"></span>
+            
+            <h4>Do my socks match my jumper?</h4>
+            <input id="preguntas5" class="resp" type="text" name="nombredelacaja">
+            <button onClick="comprobarRespuesta(5)">Comprobar</button>
+            <span id="respuestas5"></span>
+            
+            <h4>Does your left sock match your right sock?</h4>
+            <input id="preguntas6" class="resp" type="text" name="nombredelacaja">
+            <button onClick="comprobarRespuesta(6)">Comprobar</button>
+            <span id="respuestas6"></span>
+            
+            <h4>Do you spend a lot of time looking for matching socks in the morning?</h4>
+            <input id="preguntas7" class="resp" type="text" name="nombredelacaja">
+            <button onClick="comprobarRespuesta(7)">Comprobar</button>
+            <span id="respuestas7"></span>
+            
+            <h4>Should shoes and handbags always match?</h4>
+            <input id="preguntas8" class="resp" type="text" name="nombredelacaja">
+            <button onClick="comprobarRespuesta(8)">Comprobar</button>
+            <span id="respuestas8"></span>
+            
+            <h4>Did you and your brother(s) / sister(s) ever wear matching clothes when you were younger?</h4>
+            <input id="preguntas9" class="resp" type="text" name="nombredelacaja">
+            <button onClick="comprobarRespuesta(9)">Comprobar</button>
+            <span id="respuestas9"></span>
+            
+            <h4>How did you feel about it?</h4>
+            <input id="preguntas10" class="resp" type="text" name="nombredelacaja">
+            <button onClick="comprobarRespuesta(10)">Comprobar</button>
+            <span id="respuestas10"></span>
+            
+            <h4>Should partners wear matching clothes?</h4>
+            <input id="preguntas11" class="resp" type="text" name="nombredelacaja">
+            <button onClick="comprobarRespuesta(11)">Comprobar</button>
+            <span id="respuestas11"></span>
+            
+            <h4>Do organised people usually wear matching socks?</h4>
+            <input id="preguntas12" class="resp" type="text" name="nombredelacaja">
+            <button onClick="comprobarRespuesta(12)">Comprobar</button>
+            <span id="respuestas12"></span>
+            
+            <h4>In summer, do you prefer shirts with long sleeves or short sleeves?</h4>
+            <input id="preguntas13" class="resp" type="text" name="nombredelacaja">
+            <button onClick="comprobarRespuesta(13)">Comprobar</button>
+            <span id="respuestas13"></span>
+            
+            <h4>Are you shirt sleeves the same colour as your socks?</h4>
+            <input id="preguntas14" class="resp" type="text" name="nombredelacaja">
+            <button onClick="comprobarRespuesta(14)">Comprobar</button>
+            <span id="respuestas14"></span>
+            
+        </div>
+
+            
+
+
+<p>Page: Three - 03</p>
+<div class="central">            
+    <table class="tablaS7">
+        <tr><td>SUIT</td><td>FIT</td></tr>
+    </table>
+ </div>
+ <ul>
+    <li>I something suits you, it looks good when you wear it. "That blue shirt really suits you, because it matches the colour of your eyes."</li>
+    <li>I something fits, it is the right size. For example, if your clothes are big or small, they don't fit you.</li>
+</ul>
+ <h2>Questions</h2>
+ <button class="accordion"><span>Preguntas</span> <i class="fas fa-angle-down"></i></button>
+ <div class="panel">
+    <h4>Do you think my shirt suits me?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>Do you think (not having) a beard would suit me?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>Would a moustache suit your best friend?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>Do my clothes always fit me? (Ask me!)</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>Do you throw away clothes if they don't fit you?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>Would your coat fit me?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>Could fifteen students fit in this classroom?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>What about thirty students?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+
+ </div>
+            
+ <p>Page: Four - 04</p>
+<div class="central">            
+    <table class="tablaS7">
+        <tr><td>SIZE</td><td>EXTRA LARGE</td></tr>
+        <tr><td>LARGE</td><td>MEDIUM</td></tr>
+        <tr><td>SMALL</td><td>EXTRA SMALL</td></tr>
+    </table>
+ </div>
+ <ul>
+    <li>You can buy clothes in different sizes. Small, medium and large are examples of sizes. Medium means not small and not large. It's in between. Extra means 'Very'.</li>
+</ul>
+ <h2>Questions</h2>
+ <button class="accordion"><span>Preguntas</span> <i class="fas fa-angle-down"></i></button>
+ <div class="panel">
+    <h4>What's my usual shoe size?(Ask me!)</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>Have I always worn the same shoe size?(Ask me!)</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>If I buy an extra small jacket, will it fit me?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>Are extra large clothes usually more expensive than extra small clothes?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>Do think people wore large sizes in the past?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>Do you think that size medium is different in different countries?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>Is medium sometimes different in different shops?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>What size shirt d you think your favourite acto wears?(Small, medium, etc.)</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+
+    <h4>Have I ever bought an (Extra small, etc.) shirt by mistake?(Ask me!)</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+
+ </div>
+            
+ <p>Page: Five - 05</p>
+ <div class="central">            
+    <table class="tablaS7">
+        <tr><td>STRIPE(s)</td><td>SPOT(s)</td></tr>
+        <tr><td>ZEBRA</td><td>LEOPARD</td></tr>
+    </table>
+ </div>
+ <ul>
+    <li>A zebra is like a small horse in Africa. Zebras have black and white stripes.</li>
+    <li>Leopards are big cats in Africa and Asia. They are yellow with blac spots.</li>
+</ul>
+ <h2>Questions</h2>
+ <button class="accordion"><span>Preguntas</span> <i class="fas fa-angle-down"></i></button>
+ <div class="panel">
+    <h4>Would you like to ride a zebra?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>What colours are zebra's stripes?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>What other animals have stripes?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>What colour are their stripes?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>Have you ever seen a leopard?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>Are their spots yellow or black?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>Do leopards sometimes eat zebras?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>Do spots and stripes go together?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+
+    <h4>Do you prefer shirts with spots or shirts with stripes?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+ </div>
+            
+ <p>Page: Six - 06</p>
+ <div class="central">            
+    <table class="tablaS7">
+        <tr><td>FIT IN (WITH)</td><td>ENVIRONMENT</td></tr>
+        <tr><td colspan="2">CHAMELEON</td></tr>
+        
+    </table>
+ </div>
+ <ul>
+     <li>If you fit in somewhere, you suit it. For example, a very old person probably wouldn't fit in at a disco for teenagers. They might fell uncomfortable.</li>
+     <li>Your environment is everything around you. For example, the city is a busy environment. The countryside is quiet, peaceful environment.</li>
+     <li>A chameleon is an animal that can change colour to match its environment. For example, if it's sitting on something green (e.g. a leaf), it changes its colour to green!</li>
+ </ul>
+<h4>EXAMPLES</h4>
+<p>Molly: I didn't fit in at school. I was always different.</p>
+
+<h2>Questions</h2>
+<button class="accordion"><span>Preguntas</span> <i class="fas fa-angle-down"></i></button>
+ <div class="panel">
+    <h4>Is it sometimes difficult to fit in with a new environment?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>Is it easy for me to fit in with a new group of people?(Ask me!?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>Would a lamb fit in a rainforest?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>Is the city a healthier environment for children than the countryside?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>Have you ever seen a leopard?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>Are their spots yellow or black?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>Do leopards sometimes eat zebras?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>Do spots and stripes go together?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+
+    <h4>Do you prefer shirts with spots or shirts with stripes?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+ </div>
+            
+<p>Page: Seven - 07</p>
+<div class="central">            
+    <table class="tablaS7">
+        <tr><td>LIGHT</td><td></td><td>DARK</td></tr>
+        <tr><td>BRIGHT</td><td>PALE</td><td>DULL</td></tr>
+        
+    </table>
+ </div>
+ <ul>
+     <li>We can use light and dark to talk about colours. Black is the darkest colour. White is a very light colour.</li>
+     <li>Pale has a similar meaning to 'light'. Pale colours are close to white.</li>
+     <li>We can use <strong>bright</strong> to talk about light and colour. A <strong>bright</strong> light is a strong light. A <strong>bright</strong> day is a day with a lot of sun.</li>
+     <li>When we use <strong>bright</strong> to talk about colour, it means a strong colour. For example, orange is <strong>bright</strong> colour.</li>
+     <li>The oppsite of <strong>bright</strong> is <strong>dull</strong>. A <strong>dull</strong> day is a cloudy day. Brown and grey are <strong>dull</strong> colours.</li>
+ </ul>
+ <h2>Questions</h2>
+ <button class="accordion"><span>Preguntas</span> <i class="fas fa-angle-down"></i></button>
+ <div class="panel">
+    <h4>What type of colour is orange?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>And brown?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>Do flowers usually have bright colours or dull colours?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>Do you usually wear bright colours or dull colours at work?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>Do you feel happier when you wear bright colours?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>Have you ever worn a bright orange shirt to work on a dull day?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>Does she wear lighter colours in summer or winter?(Ask her!)</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>Is it a good idea to wear dark colours on a hot summer day?(Why not?)</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+
+    <h4>Is it bright outside at the moment?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+
+    <h4>What's an adjective for a cloudy day?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+
+    <h4>Is white a light colour or a bright colour?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+
+    <h4>If a colour is pale, is it closer to black or white?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+
+    <h4>Should people with pale skin wear very bright colours?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+
+    <h4>Do most people have pale skin in Ireland or Greece?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+ </div>
+            
+<p>Page: Seven - 07</p>
+ <p>Page: Nine - 09</p>
+ <div class="central">            
+    <table class="tablaS7">
+        <tr><td></td><td>CHRISTENIG</td><td></td></tr>
+        <td></td><td>HANDKERCHIEF</td><td></td></tr>
+        <tr><td>TISSUE</td><td></td><td>FUNERAL</td></tr>
+        
+    </table>
+ </div>
+ <ul>
+     <li>Some people have a <strong>christening</strong> when they're a baby. A <strong>christening</strong> happens in a church. A priest puts water on the baby and says the baby's name.</li>
+     <li>When you cry, you can use a <strong>handkerchief</strong> or tissue. We was <strong>handkerchiefs</strong> and use them again. We throw tissues away.</li>
+     <li>We have a funeral when somebody dies.</li>
+ </ul>
+
+ <h2>Questions</h2>
+ <button class="accordion"><span>Preguntas</span> <i class="fas fa-angle-down"></i></button>
+ <div class="panel">
+    <h4>When was the last time you went to a christening?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>Did you have a chistening when you were a baby?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>Do you think that babies understand what's happening at theis christenings?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>Do people in your country usually wear dark colours or bright colour to a funeral?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>Do you prefer handkerchiefs or tissues?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>Do you have any tissues?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>Do have a handkerchief?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>Are tissues expensive?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+
+ </div>
+            
+            
+ <p>Page: Ten - 10</p>
+ <div class="central">            
+    <table class="tablaS7">
+        <tr><td>RIGHT</td><td></td><td>PROPER</td></tr>
+        <td></td><td>CORRECT</td><td></td></tr>      
+    </table>
+ </div>
+ <ul>
+     <li>'Right' and <strong>proper</strong> both mean 'correct'. We can do something in the right way, the <strong>proper</strong> way or the 'correct' way.</li>
+     <li>We can only use right and correct for answers in an exam. We don't use <strong>proper</strong></li>
+ </ul>
+<h4>EXAMPLES</h4>
+<p>"What's the proper/right/correct way to talk to a stranger in your country? Do you use their first name or their surname?"</p>
+<p>"Yes, two is the right/correct answer! Well done!"</p>
+
+ <h2>Questions</h2>
+ <button class="accordion"><span>Preguntas</span> <i class="fas fa-angle-down"></i></button>
+ <div class="panel">
+    <h4>Is a orange the proper colour to wear to a funeral?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>What's the proper colour to wear to a funeral in your country?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>Is using your hands the proper way to eat sandwich?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>Is a flat the proper place to keep a horse?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+
+ </div>
+            
+ <p>Page: Eleven - 11</p>
+<h2>Conjunctions BUT and HOWEVER</h2>
+<h2>We use but and however to constrast ideas. However has a similiar meaning to but.</h2>
+<p>This is how we use them:</p>
+<h4>EXMAPLES</h4>
+<p>"Austin loves living in Spain but he would prefer to live in Australia with Molly."</p>
+<p>"Austin loves living in Spain. However, he would prefer to live in Australia with Molly."</p>
+<h2>We use however at the beginning of a sentence, not in the middle.</h2>
+<h2>We normally use but in the middle of a sentence.</h2>
+<div class="central">            
+<table class="tablaS7">
+    <tr><td>HOWEVER</td></tr>
+    <tr><td>BUT</td></tr>
+</table>
+ </div>
+
+ <h2>Questions</h2>
+ <button class="accordion"><span>Preguntas</span> <i class="fas fa-angle-down"></i></button>
+ <div class="panel">
+    <h4>Austin is tired. He is happy.[BUt]</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>Molly is hungry. There isn't any food in the fridge.[HOWEVER]</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>Those clothes don't match. They go together.[HOWEVER]</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>Zebras don't have spots. They have stripes.[BUt]</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+   
+    <h4>It was a funeral. Everyone wore bright clothes.[HOWEVER]</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+   
+    <h4>They didn't have extra large shirts. They had large ones.[BUt]</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+ </div>
+ 
+
+ <p>Page: Twelf - 12</p> 
+ <div class="central">
+            
+<table class="tablaS7">
+    <tr><td>ALTHOUGH</td></tr>           
+</table>
+</div>
+<ul>
+    <li><strong>Although</strong> is a similar word to but and however. We can use although at the beginning or in the middle of a sentence.</li>
+</ul>
+<h4>EXAMPLES</h4>
+<p>"Although it was raining, I went to play football outside with my friends.</p>
+<p>I went to play football outise with my friends although it was raining</p>
+<p>Although I was tired, I went out with my friends to a club.</p>
+<p>I went out with my friends to a club althoug I was tired.</p>
+
+<h2>Questions</h2>
+<button class="accordion"><span>Preguntas</span> <i class="fas fa-angle-down"></i></button>
+ <div class="panel">
+    <h4>I swam in the sea / freezing</h4>
+    <p>Although it was freezing, I swam in the sea. / I swam in the sea althoug it was freezing.</p>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>I wore my dad's shirt / extra large</h4>
+    <p>Although it was extra large, I wore... / I wore my dad's shirt although...</p>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>They went to his funeral / they weren't friends</h4>
+    <p>Although the weren't friends... / They went to his funeral althoug...</p>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>She was very happy on her wedding day / it was raining</h4>
+    <p>Although it was raning... / She was very happy on her wedding day, although...</p>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>Jack loves Marcus a lot / very noisy</h4>
+    <p>Although he's very noisy... / Jack loves Marcusa lot although...</p>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>Cristina loves her cats / they smell</h4>
+    <p>Although they smell... / Cristina loves her cats...</p>
+    <input class="resp" type="text" name="nombredelacaja">
+ </div>
+
+
+<p>Page: Thirteen - 13</p> 
+ <div class="central">
+            
+<table class="tablaS7">
+    <tr><td>DESPITE (+noun/+ing)</tr>
+    <tr><td>IN SPITE OF (+noun/+ing)</td></tr>   
+</table>
+</div>
+<ul>
+    <li>Despite and in spite of mean the same thing. We can use despite and in spite of at the beginning or in the middle of a sentence.</li>
+</ul>
+<h4>EXAMPLES</h4>
+<p>"Despite the foggy weather, they climbed up the mountain."</p>
+<p>"They argued all night in spite of the good music."</p>
+<p>"He wasn't tired despite walking for ten miles."</p>
+<p>In spite of playing the piano for fice years, he was awful."</p>
+
+<h2>Questions</h2>
+<button class="accordion"><span>Preguntas</span> <i class="fas fa-angle-down"></i></button>
+ <div class="panel">
+    <h4>Do you ever wear a t-shirt in winter despite the cold weather?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>Do you ever wear a coat in summer in spite of the hot weather?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>Do you ever go out with your friends despite feeling tired?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>Do you ever listen to sad music in spite of feeling happy?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+   
+    <h4>Join the two parts of sentence with in spite of: Bad weather/theyhad a picnic.</h4>
+    <p>In spite of the bad weather... / They had a picnic in spite of...</p>
+    <input class="resp" type="text" name="nombredelacaja">
+   
+    <h4>Join the two parts of sentence with in spite of: Feeling under the weather/ he went to the cinema.</h4>
+    <p>Despite feeling under the weather... / He went to the cinema despite he feeling...</p>
+    <input class="resp" type="text" name="nombredelacaja">
+   
+    <h4>Join the two parts of sentence with in spite of: Her fear of water / she went saling.</h4>
+    <p>Despite her fear of water... / She went saling despite... </p>
+    <input class="resp" type="text" name="nombredelacaja">
+ </div>
+ 
+
+ <div class="central">            
+    <table class="tablaS7">
+        <tr><td>PATIENCE</td><td>HAPPINESS</td></tr>
+        <tr><td>HUNGER</td><td>LATENESS</td></tr>
+    </table>
+ </div>
+ <ul>
+    <li>Patience, happiness, hunger and lateness are the nouns of 'patience', 'happy', 'hungry', and 'late'.</li>
+</ul>
+
+<h2>Questions</h2>
+<button class="accordion"><span>Preguntas</span> <i class="fas fa-angle-down"></i></button>
+ <div class="panel">
+    <h4>Do you think you have a lot of patience?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>Did you have more patience when you were younger?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>When was the last time you lost your patience?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+    
+    <h4>Have you ever met a child with a lot of patience?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+   
+    <h4>Is happiness more importan than money?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+   
+    <h4>Is happiness easy to find?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+   
+    <h4>Does hunger sometimes make you angry?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+   
+    <h4>Has hunger ever made me argue with someone?(Ask me!)</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+   
+    <h4>Does lateness annoy you?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+   
+    <h4>Where any of your teachers ever angry with you because of your lateness?</h4>
+    <input class="resp" type="text" name="nombredelacaja">
+ </div>
+ 
+
+
+
+
+
+
+ <script>      
+    var acc = document.getElementsByClassName("accordion");      
+    var i;      
+    for (i = 0; i < acc.length; i++) {      
+        acc[i].addEventListener("click", function () {      
+            this.classList.toggle("active");      
+            var panel = this.nextElementSibling;      
+            if (panel.style.display === "block") {      
+                panel.style.display = "none";      
+            } else {      
+                panel.style.display = "block";      
+            }      
+        });      
+    }
+    function obtenerRespuestaCorrecta(numeroPregunta) {
+        switch (numeroPregunta) {
+            case 1:
+                return "Yes, I think your jeans and your shirt go together"
+                break;
+            case 2:
+                return "No, a black shirt wouldn't go together with a orange trousers"
+                break;
+            case 3:
+                return "Yes, the colour orange and green go together"
+                break;
+            case 4:
+                return "Yes, the colours pink and brown go togetter"
+                break;
+            case 5:
+                return "Yes, your socks match with your jumper"
+                break;
+            case 6:
+                return "Yes, my left sock matchs with my right sock"
+                break;
+            case 7:
+                return "No, I don't spend a lot of time looking for matching socks in the morning"
+                break;
+            case 8:
+                return "No, shoes and handbags shouldn't always match"
+                break;
+            case 9:
+                return "No, me and my brother(s)/sister(s) didn't wear matching clothes when I was younger"
+                break;
+            case 10:
+                return "No, a black shirt wouldn't go together with a orange trousers"
+                break;
+            case 11:
+                return "No, a black shirt wouldn't go together with a orange trousers"
+                break;
+            case 12:
+                return "No, a black shirt wouldn't go together with a orange trousers"
+                break;
+            case 13:
+                return "No, a black shirt wouldn't go together with a orange trousers"
+                break;
+            default:
+                return "No existe este número de pregunta."
+                break;
+        }
+    }
+    function comprobarRespuesta(numeroPregunta) {
+        if(document.getElementById("preguntas" + numeroPregunta).value === obtenerRespuestaCorrecta(numeroPregunta)){
+            document.getElementById("respuestas" + numeroPregunta).innerHTML = 'Es correcto';
+        } else {
+            document.getElementById("respuestas" + numeroPregunta).innerHTML = 'No es correcto. Respuesta: ' + obtenerRespuestaCorrecta(numeroPregunta);
+        }
+    }
+    </script> 
+</body>
+</div>
+
+<footer id="main-footer">
+    <p>&copy; 2020 <a href="">Fernando Paiva</a></p>
+</footer>
+
+</html>

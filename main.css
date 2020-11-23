@@ -1,0 +1,182 @@
+html,
+body {
+  padding: 0;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fbfbfb;
+  margin: 0;
+}
+#logo {
+  height: 80px;
+  width: 80px;
+  
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #ededed;
+  padding: 10px;
+  
+}
+.central {
+  display: flex;
+  justify-content: center;
+}
+img {
+  width: 100%;
+  height: 400px;
+}
+.movie {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.red {
+  color: red;
+}
+.azul {
+  color: #0505ab;
+  font-size: 25px;
+}
+
+.azul1 {
+  color: #2059df;
+}
+
+.azul2 {
+  color: #2723e0;
+  font-size: 16px;
+}
+.negronegrita {
+  font-weight: bold;
+  font-size: 20px;
+  
+}
+.naranja {
+  color: #c66300;
+}
+
+#main-header {
+  background: #020042;
+  color: white;
+  height: 80px;
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+#main-header a {
+  color: #fff;
+}
+
+#main-footer {
+  background:#020042;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+#main-footer p {
+  margin: 2;
+}
+
+#main-footer a {
+  color: white;
+}
+
+nav {
+  background-color: 
+  box-shadow: 0px 3px 20px 3px #162433;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
+  position: relative;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  background-color: #9c9998;
+  border-radius: 40px;
+}
+
+nav a {
+  display: block;
+  padding: 0 20px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 40px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #d8eaed;
+  border-radius: 40px;
+}
+
+
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 60px;
+}
+
+
+nav ul li:hover > ul {
+  display: inherit;
+}
+
+
+nav ul ul li {
+  width: 170px;
+  float: none;
+  display: list-item;
+  position: relative;
+}
+
+
+nav ul ul ul li {
+  position: relative;
+  top: -60px;
+  left: 170px;
+}
+
+i {
+  display: inline-block;
+  padding: 4px;
+  vertical-align: middle;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+
+.indent1 {
+  text-indent: 1em;
+}
+.indent3 {
+  text-indent: 3em;
+}
+
